@@ -241,6 +241,24 @@ const GÖRLICoins = [
   },
 ]
 
+const AVACoins = [
+  {
+    name: "Wrapped UPTN",
+    abbr: "WUPTN",
+    address: "0x20F4CF7552898957A62ddA0015FA6217e25d1629", // Weth address is fetched from the router
+  },
+  {
+    name: "IFX",
+    abbr: "IFX",
+    address: "0x3DF3856f9FA49FF9DaE1d9eCf7b2687D7C451373",
+  },
+  {
+    name: "OCBX",
+    abbr: "OCBX",
+    address: "0xE4c9028be6F6350513edde05CBaaf95546fcd792",
+  },
+]
+
 const COINS = new Map();
 COINS.set(chains.ChainId.MAINNET, MAINNETCoins);
 COINS.set(chains.ChainId.ROPSTEN, ROPSTENCoins);
@@ -251,4 +269,5 @@ COINS.set(chains.ChainId.AUTONITY, AUTONITYCoins);
 COINS.set(chains.ChainId.DEVNET, DEVNETCoins);
 COINS.set(chains.ChainId.PARASTATE, PARASTATECoins);
 COINS.set(chains.ChainId.GANCHE, GANACHECoins)
+COINS.set(chains.ChainId.AVA, AVACoins)
 export default COINS

@@ -109,6 +109,10 @@ export async function getBalanceAndSymbol(
   }
 }
 
+async function sleepMs(ms) {
+  return new Promise(resolve=>setTimeout(resolve, ms));
+}
+
 // This function swaps two particular tokens / AUT, it can handle switching from AUT to ERC20 token, ERC20 token to AUT, and ERC20 token to ERC20 token.
 // No error handling is done, so any issues can be caught with the use of .catch()
 // To work correctly, there needs to be 7 arguments:
@@ -140,6 +144,7 @@ export async function swapTokens(
   );
 
   await token1.approve(routerContract.address, amountIn);
+  await sleepMs(3000);
   const wethAddress = await routerContract.WETH();
 
   if (address1 === wethAddress) {
