@@ -23,5 +23,5 @@ routerAddress.set(ChainId.DEVNET, "0x04e555283D37aE85F6eB311fe2578F3B3f3dFc52");
 routerAddress.set(ChainId.AUTONITY, "0x04e555283D37aE85F6eB311fe2578F3B3f3dFc52");
 routerAddress.set(ChainId.PARASTATE, "0x07a1905D44feeA439ceFAabd11a63bEf684abE11");
 routerAddress.set(ChainId.GANCHE, "0x0F44AC51198D8F99847db6C431448dBC673428f1");
-routerAddress.set(ChainId.AVA, "0x50cB51Af69855F6263e483cF50C7811b61d826f7");
+routerAddress.set(ChainId.AVA, "0x0Cd167eFf96d2185De8C80D316778Bc400a8eaFD");
 
