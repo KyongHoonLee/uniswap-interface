@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/uniswap-interface/static/css/main.ec4d5a3d.css",
-    "main.js": "/uniswap-interface/static/js/main.54c8d63a.js",
+    "main.js": "/uniswap-interface/static/js/main.57a5831e.js",
     "static/js/787.6b1a131c.chunk.js": "/uniswap-interface/static/js/787.6b1a131c.chunk.js",
     "index.html": "/uniswap-interface/index.html",
     "main.ec4d5a3d.css.map": "/uniswap-interface/static/css/main.ec4d5a3d.css.map",
-    "main.54c8d63a.js.map": "/uniswap-interface/static/js/main.54c8d63a.js.map",
+    "main.57a5831e.js.map": "/uniswap-interface/static/js/main.57a5831e.js.map",
     "787.6b1a131c.chunk.js.map": "/uniswap-interface/static/js/787.6b1a131c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ec4d5a3d.css",
-    "static/js/main.54c8d63a.js"
+    "static/js/main.57a5831e.js"
   ]
 }
