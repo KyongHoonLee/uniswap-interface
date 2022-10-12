@@ -257,6 +257,11 @@ const AVACoins = [
     abbr: "OCBX",
     address: "0xE4c9028be6F6350513edde05CBaaf95546fcd792",
   },
+  {
+    name: "TESTX",
+    abbr: "TESTX",
+    address: "0xe4c9028be6f6350513edde05cbaaf95546fcd792",
+  },
 ]
 
 const COINS = new Map();
